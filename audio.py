@@ -12,6 +12,9 @@ def mp4_to_wav(file_name):
         "-ar", "16000",
         "-af", "highpass=f=200,lowpass=f=3000",
         output
-    ])
+    ],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL
+    )
 
     return output
