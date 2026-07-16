@@ -5,6 +5,7 @@ def mp4_to_wav(file_name):
 
     subprocess.run([
         "ffmpeg",
+        "-y",
         "-i", file_name,
         "-vn",
         "-ac", "1",
