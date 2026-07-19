@@ -7,7 +7,7 @@ from download import download_clip
 from transcription import get_transcription
 
 
-url = input("Enter twitch clip URL: ")
+url = input("Enter clip URL: ")
 model = "medium" #tiny, small, medium, large
 
 
