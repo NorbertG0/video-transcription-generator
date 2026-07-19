@@ -1,4 +1,4 @@
-# Video Transcript Generator
+# Video Transcription Generator
 
 **A simple tool for downloading short videos, extracting audio, and generating speech transcriptions using OpenAI Whisper.**
 
