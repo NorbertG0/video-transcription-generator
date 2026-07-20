@@ -5,6 +5,7 @@ from datetime import datetime
 from audio import mp4_to_wav
 from download import download_clip
 from transcription import get_transcription
+from srt_export import get_srt
 
 
 url = input("Enter clip URL: ")
@@ -43,6 +44,8 @@ try:
 
     print("[INFO] Saved JSON")
 
+    get_srt("transcription.json")
+    print("[INFO] Saved SRT file")
 
 except Exception as e:
     print(f"[ERROR] {e}")
