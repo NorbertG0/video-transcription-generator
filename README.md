@@ -4,7 +4,7 @@
 
 ***Stack:*** Python • ffmpeg • whisper • Docker
 
-***Examples of .srt and .json outputs are included in the repo***
+***Examples of [srt](output.srt) and [json](transcription.json) outputs are included in the repo***
 
 ## App flow
 <p align="center">
