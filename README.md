@@ -1,8 +1,8 @@
 # Video Transcription Generator
 
-**A simple tool for downloading short videos, extracting audio, and generating speech transcriptions using local model OpenAI Whisper.**
+***Stack: Python • ffmpeg • OpenAI Whisper • Docker***
 
-***Stack:*** Python • ffmpeg • whisper • Docker
+**A simple tool for downloading short videos, extracting audio, and generating speech transcriptions using local model OpenAI Whisper.**
 
 ***Examples of [srt](output.srt) and [json](transcription.json) outputs are included in the repo***
 
